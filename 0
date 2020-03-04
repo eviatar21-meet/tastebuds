@@ -26,8 +26,8 @@
             document.getElementById('3').style.visibility = 'hidden';
             var ifrm = document.createElement("iframe");
             ifrm.setAttribute("src",link[R]);
-            ifrm.style.width = "640px";
-            ifrm.style.height = "480px";
+           ifrm.style.width = "750px";
+            ifrm.style.height = "900px";
             document.body.appendChild(ifrm);
 
          	if (R==0) {
